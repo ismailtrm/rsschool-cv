@@ -2,12 +2,20 @@
 
 **Email:** [ismailtarim7@gmail.com](mailto:ismailtarim7@gmail.com)  
 **LinkedIn:** [linkedin.com/in/ismailtarim](https://linkedin.com/in/ismailtarim)
-
+**Phone:** +90 xxx xxx 8562
 ---
 
 ## Professional Summary
 
 Innovative Computer Engineer specializing in AI-driven backend development, algorithm optimization, and database management. Currently pursuing a Bachelor's in Computer Engineering with a focus on AI integration. Known for technical leadership and a strong foundation in autonomous systems and robotics.
+
+-Deeply passionate about becoming a full-stack developer, with a strong focus on the architecture and design of web applications.
+
+-Actively learning both front-end and back-end technologies to gain a comprehensive understanding of the entire development process.
+
+-I enjoy solving algorithmic problems on LeetCode, continually enhancing my expertise in data structures and writing efficient code.
+
+-Committed to building efficient, scalable applications by expanding my knowledge of various technology stacks and software architecture.
 
 ---
 
@@ -90,6 +98,15 @@ Innovative Computer Engineer specializing in AI-driven backend development, algo
 - Designed a proprietary **sonar system** with 360-degree scanning capabilities, enhancing environmental awareness.
 - Utilized algorithms (**Sea-Thru**, **YOLO**) for underwater image correction and perception.
 
+### **Volunteer Computer Vision Developer - AYA**
+-Utilise deep learning, computer vision algorithms identify collapsed buildings from space and satellite imagery.
+-Utilized Entropy Coding and Remote Sensing for pre-processing to optimize the processing of image analysis, allowing for faster turnaround times on identification efforts, Geographical Information Systems (GIS)
+-Contributed to image labelling studies.
+-Provided integral support to Twitter bot works used for backend processes and information extraction on an externally created website during disaster relief efforts.
+
+### **Volunteer Educator - ECEV**
+-Sum: Children aged 5-15; I gave FLL robotics training and awareness study, chess education for students over 100.
+
 ## Key Projects
 
 **SearchStore: Web Scraping Application**  
@@ -120,11 +137,11 @@ Science and Math, Graduated: June 2024
 Science and Math, Attended until June 2022
 
 **Certifications & Honors**
-- Python Automation and Testing
-- Python Data Analysis
-- Advanced Prompt Engineering Techniques
-- Artificial Intelligence and Business Strategy
-- Critical Thinking for Better Judgment and Decision-Making
+- Python Automation and Testing | National Association of State Boards of Accountancy (NASBA)
+- Python Data Analysis | LinkedIn
+- Advanced Prompt Engineering Techniques | LinkedIn
+- Artificial Intelligence and Business Strategy | Project Management Institute (PMI)
+- Critical Thinking for Better Judgment and Decision-Making | Project Management Institute (PMI)
   
 ---
 
