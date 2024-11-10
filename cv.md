@@ -76,3 +76,25 @@ Innovative Computer Engineer specializing in AI-driven backend development, algo
 - Developed a **Django-based backend** for **AI-driven horoscope predictions**.
 - Integrated multiple data sources to improve the accuracy and relevance of horoscopes.
 
+---
+
+## Education
+
+### **İzmir Katip Çelebi University**  
+**B.Sc. in Computer Engineering**, Expected Graduation: June 2028
+
+### **Cihat Kora Anatolian High School**  
+Science and Math, Graduated: June 2024
+
+### **Yusuf Kemalettin Perin Science High School**  
+Science and Math, Attended until June 2022
+
+---
+
+## Certifications & Honors
+
+- **Python Automation and Testing**
+- **Python Data Analysis**
+- **Advanced Prompt Engineering Techniques**
+- **Artificial Intelligence and Business Strategy**
+- **Critical Thinking for Better Judgment and Decision-Making**
