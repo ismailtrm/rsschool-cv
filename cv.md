@@ -20,7 +20,40 @@ Innovative Computer Engineer specializing in AI-driven backend development, algo
 
 ---
 
-## Professional Experience
+## Code Examples
+```cpp
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        
+        vector<int> res;
+
+        if(nums.empty()){
+            return res;
+        }
+
+        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+        unordered_map<int,int> m;
+        for(auto num : nums){
+            m[num]++;
+        }
+
+        for(auto &item : m){
+            pq.push({item.second, item.first});
+            if (pq.size() > k) {
+                pq.pop();
+            }
+        }        
+        
+        while(!pq.empty()) {
+            res.push_back(pq.top().second);
+            pq.pop();
+        }
+
+        reverse(res.begin(), res.end());
+        return res;
+    }
+```
+
+## Experience
 
 ### **GDG On Campus IKCU – Core Team Member**  
 *October 2024 - Present*  
@@ -57,21 +90,19 @@ Innovative Computer Engineer specializing in AI-driven backend development, algo
 - Designed a proprietary **sonar system** with 360-degree scanning capabilities, enhancing environmental awareness.
 - Utilized algorithms (**Sea-Thru**, **YOLO**) for underwater image correction and perception.
 
----
-
 ## Key Projects
 
-### **SearchStore: Web Scraping Application**  
+**SearchStore: Web Scraping Application**  
 **Technologies:** JavaScript, Fetch API  
 - Built a web application for scraping and displaying data from various online stores using **JavaScript**.
 - Implemented efficient data retrieval techniques with the **Fetch API** for real-time data display.
 
-### **Motion Extraction: OpenCV and Deep Learning**  
+**Motion Extraction: OpenCV and Deep Learning**  
 **Technologies:** OpenCV, Deep Learning, Numpy  
 - Developed motion detection algorithms using **OpenCV** and integrated machine learning techniques.
 - Enhanced detection accuracy through optimized algorithmic design and data preprocessing.
 
-### **AstroReis: AI-Powered Astrology Application**  
+**AstroReis: AI-Powered Astrology Application**  
 **Technologies:** Django, AI Techniques  
 - Developed a **Django-based backend** for **AI-driven horoscope predictions**.
 - Integrated multiple data sources to improve the accuracy and relevance of horoscopes.
@@ -79,22 +110,28 @@ Innovative Computer Engineer specializing in AI-driven backend development, algo
 ---
 
 ## Education
-
-### **İzmir Katip Çelebi University**  
+**İzmir Katip Çelebi University**  
 **B.Sc. in Computer Engineering**, Expected Graduation: June 2028
 
-### **Cihat Kora Anatolian High School**  
+**Cihat Kora Anatolian High School**  
 Science and Math, Graduated: June 2024
 
-### **Yusuf Kemalettin Perin Science High School**  
+**Yusuf Kemalettin Perin Science High School**  
 Science and Math, Attended until June 2022
 
+**Certifications & Honors**
+- Python Automation and Testing
+- Python Data Analysis
+- Advanced Prompt Engineering Techniques
+- Artificial Intelligence and Business Strategy
+- Critical Thinking for Better Judgment and Decision-Making
+  
 ---
 
-## Certifications & Honors
+## Languages
 
-- **Python Automation and Testing**
-- **Python Data Analysis**
-- **Advanced Prompt Engineering Techniques**
-- **Artificial Intelligence and Business Strategy**
-- **Critical Thinking for Better Judgment and Decision-Making**
+- **Turkish**: Native language
+- **English**: C1 level
+  - MEB(ministry of public education) Certified C1 
+  - Izmir Katip Celebi University | Celebi Proficiency Test (scored 94%)
+- **German**: A1 level 
