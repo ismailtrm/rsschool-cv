@@ -18,4 +18,61 @@ Innovative Computer Engineer specializing in AI-driven backend development, algo
 - **Tools:** Git, MATLAB
 - **Databases:** MySQL, PostgreSQL
 
+---
+
+## Professional Experience
+
+### **GDG On Campus IKCU – Core Team Member**  
+*October 2024 - Present*  
+
+### **ECO-ROVER – Robotics Developer, Programming Team Member**  
+*October 2024 - Present*  
+
+### **Beast Wear – Co-Founder, CTO**  
+*March 2024 - Present*  
+- Developed a scalable e-commerce platform using **Next.js** and **Firebase**.
+- Integrated **shopier** and shipping APIs to streamline payment and logistics.
+
+### **Brif Studio – Co-Founder, Backend-Prompt Engineer**  
+*March 2023 - August 2023*  
+- Engineered **AI-integrated backend systems** to automate presentation generation.
+- Optimized **database management systems**, reducing data retrieval times by 40%.
+
+### **TradeMonex – Backend Developer**  
+*August 2022 – February 2023*  
+- Built backend systems to support **blockchain-based applications**.
+- Automated data processing workflows, reducing manual input requirements by 30%.
+
+### **İzelman Robotics – Head of Programming**  
+*June 2022 - Present*  
+- Led development of autonomous and manual control systems for robotics, utilizing **AI** and **sensor fusion**.
+- Designed and implemented control algorithms (e.g., **PID**) to enhance robotic performance.
+- Facilitated hardware-software integration in complex robotics systems.
+- Provided mentorship, contributing to improved team outcomes and technical skills.
+
+### **Gökbörü ROV Team – Technical Lead**  
+*October 2022 - April 2023*  
+- Developed **ROS-Mavlink** protocols for real-time underwater operations.
+- Implemented **AI-driven image processing** algorithms for sonar data, improving detection accuracy by 10%.
+- Designed a proprietary **sonar system** with 360-degree scanning capabilities, enhancing environmental awareness.
+- Utilized algorithms (**Sea-Thru**, **YOLO**) for underwater image correction and perception.
+
+---
+
+## Key Projects
+
+### **SearchStore: Web Scraping Application**  
+**Technologies:** JavaScript, Fetch API  
+- Built a web application for scraping and displaying data from various online stores using **JavaScript**.
+- Implemented efficient data retrieval techniques with the **Fetch API** for real-time data display.
+
+### **Motion Extraction: OpenCV and Deep Learning**  
+**Technologies:** OpenCV, Deep Learning, Numpy  
+- Developed motion detection algorithms using **OpenCV** and integrated machine learning techniques.
+- Enhanced detection accuracy through optimized algorithmic design and data preprocessing.
+
+### **AstroReis: AI-Powered Astrology Application**  
+**Technologies:** Django, AI Techniques  
+- Developed a **Django-based backend** for **AI-driven horoscope predictions**.
+- Integrated multiple data sources to improve the accuracy and relevance of horoscopes.
 
