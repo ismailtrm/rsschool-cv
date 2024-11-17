@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CV of İsmail Tarım, a Computer Engineer specializing in AI-driven backend development.">
     <title>İsmail Tarım - Computer Engineer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -27,7 +28,65 @@
                 <li>Committed to building efficient, scalable applications...</li>
             </ul>
         </section>
+        <section>
+            <h2>Core Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, JavaScript, C++, Java</li>
+                <li><strong>Frameworks:</strong> Django, Selenium, OpenCV, Next.js, Express.js, Firebase, BeautifulSoup, ROS</li>
+                <li><strong>Tools:</strong> Git, MATLAB</li>
+                <li><strong>Databases:</strong> MySQL, PostgreSQL</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Code Examples</h2>
+            <pre><code>
+vector&lt;int&gt; topKFrequent(vector&lt;int&gt;&amp; nums, int k) {
+    vector&lt;int&gt; res;
+    if(nums.empty()){ return res; }
+    priority_queue&lt;pair&lt;int,int&gt;, vector&lt;pair&lt;int,int&gt;&gt;, greater&lt;pair&lt;int,int&gt;&gt;&gt; pq;
+    unordered_map&lt;int,int&gt; m;
+    for(auto num : nums){ m[num]++; }
+    for(auto &item : m){
+        pq.push({item.second, item.first});
+        if (pq.size() &gt; k) { pq.pop(); }
+    }        
+    while(!pq.empty()) {
+        res.push_back(pq.top().second);
+        pq.pop();
+    }
+    reverse(res.begin(), res.end());
+    return res;
+}
+            </code></pre>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <article>
+                <h3>GDG On Campus IKCU – Core Team Member</h3>
+                <p><em>October 2024 - Present</em></p>
+            </article>
+            <article>
+                <h3>ECO-ROVER – Robotics Developer, Programming Team Member</h3>
+                <p><em>October 2024 - Present</em></p>
+            </article>
+            <!-- Add more experiences similarly -->
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>İzmir Katip Çelebi University</strong>: B.Sc. in Computer Engineering (Expected: June 2028)</li>
+                <li><strong>Cihat Kora Anatolian High School</strong>: Science and Math (Graduated: June 2024)</li>
+                <li><strong>Yusuf Kemalettin Perin Science High School</strong>: Science and Math (Attended until June 2022)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li><strong>Turkish:</strong> Native language</li>
+                <li><strong>English:</strong> C1 level (MEB Certified, 94% on Celebi Proficiency Test)</li>
+                <li><strong>German:</strong> A1 level</li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>
-
