@@ -25,3 +25,37 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 5px;
+}
+
+pre {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+article {
+    margin-bottom: 10px;
+}
