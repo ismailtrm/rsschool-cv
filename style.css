@@ -1,0 +1,154 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #a0a0a0;
+}
+
+/* Navigation */
+nav {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066fd;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #003d9e;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Section */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #0066fd;
+    border-bottom: 2px solid #0066fd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Articles */
+article h3 {
+    font-size: 1.5rem;
+    color: #e0e0e0;
+}
+
+article p {
+    color: #a0a0a0;
+}
+
+article ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #a0a0a0;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#skills ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Links */
+a {
+    color: #0067ff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #003d9f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    color: #a0a0a0;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #0066fd;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #003d9e;
+}
