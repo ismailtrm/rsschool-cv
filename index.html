@@ -1,91 +1,111 @@
-<!DOCTYPE html>↩
-<html lang="en">↩
-<head>↩
-    <meta charset="UTF-8">↩
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">↩
-    <meta name="description" content="CV of İsmail Tarım, a Computer Engineer specializing in AI-driven backend development.">↩
-    <title>İsmail Tarım - Computer Engineer</title>↩
-    <link rel="stylesheet" href="style.css">↩
-</head>↩
-<body>↩
-    <header>↩
-        <h1>İsmail Tarım - Computer Engineer</h1>↩
-        <p>↩
-            <strong>Email:</strong> <a href="mailto:ismailtarim7@gmail.com">ismailtarim7@gmail.com</a><br>↩
-            <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ismailtarim" target="_blank">linkedin.com/in/ismailtarim</a><br>↩
-            <strong>Phone:</strong> +90 xxx xxx 8562↩
-        </p>↩
-        <hr>↩
-    </header>↩
-    <main>↩
-        <section>↩
-            <h2>Professional Summary</h2>↩
-            <p>Innovative Computer Engineer specializing in AI-driven backend development, algorithm optimization, and database management...</p>↩
-            <ul>↩
-                <li>Deeply passionate about becoming a full-stack developer...</li>↩
-                <li>Actively learning both front-end and back-end technologies...</li>↩
-                <li>Enjoy solving algorithmic problems on LeetCode...</li>↩
-                <li>Committed to building efficient, scalable applications...</li>↩
-            </ul>↩
-        </section>↩
-        <section>↩
-            <h2>Core Skills</h2>↩
-            <ul>↩
-                <li><strong>Programming Languages:</strong> Python, JavaScript, C++, Java</li>↩
-                <li><strong>Frameworks:</strong> Django, Selenium, OpenCV, Next.js, Express.js, Firebase, BeautifulSoup, ROS</li>↩
-                <li><strong>Tools:</strong> Git, MATLAB</li>↩
-                <li><strong>Databases:</strong> MySQL, PostgreSQL</li>↩
-            </ul>↩
-        </section>↩
-        <section>↩
-            <h2>Code Examples</h2>↩
-            <pre><code>↩
-vector&lt;int&gt; topKFrequent(vector&lt;int&gt;&amp; nums, int k) {↩
-    vector&lt;int&gt; res;↩
-    if(nums.empty()){ return res; }↩
-    priority_queue&lt;pair&lt;int,int&gt;, vector&lt;pair&lt;int,int&gt;&gt;, greater&lt;pair&lt;int,int&gt;&gt;&gt; pq;↩
-    unordered_map&lt;int,int&gt; m;↩
-    for(auto num : nums){ m[num]++; }↩
-    for(auto &item : m){↩
-        pq.push({item.second, item.first});↩
-        if (pq.size() &gt; k) { pq.pop(); }↩
-    }        ↩
-    while(!pq.empty()) {↩
-        res.push_back(pq.top().second);↩
-        pq.pop();↩
-    }↩
-    reverse(res.begin(), res.end());↩
-    return res;↩
-}↩
-            </code></pre>↩
-        </section>↩
-        <section>↩
-            <h2>Experience</h2>↩
-            <article>↩
-                <h3>GDG On Campus IKCU – Core Team Member</h3>↩
-                <p><em>October 2024 - Present</em></p>↩
-            </article>↩
-            <article>↩
-                <h3>ECO-ROVER – Robotics Developer, Programming Team Member</h3>↩
-                <p><em>October 2024 - Present</em></p>↩
-            </article>↩
-            <!-- Add more experiences similarly -->↩
-        </section>↩
-        <section>↩
-            <h2>Education</h2>↩
-            <ul>↩
-                <li><strong>İzmir Katip Çelebi University</strong>: B.Sc. in Computer Engineering (Expected: June 2028)</li>↩
-                <li><strong>Cihat Kora Anatolian High School</strong>: Science and Math (Graduated: June 2024)</li>↩
-                <li><strong>Yusuf Kemalettin Perin Science High School</strong>: Science and Math (Attended until June 2022)</li>↩
-            </ul>↩
-        </section>↩
-        <section>↩
-            <h2>Languages</h2>↩
-            <ul>↩
-                <li><strong>Turkish:</strong> Native language</li>↩
-                <li><strong>English:</strong> C1 level (MEB Certified, 94% on Celebi Proficiency Test)</li>↩
-                <li><strong>German:</strong> A1 level</li>↩
-            </ul>↩
-        </section>↩
-    </main>↩
-</body>↩
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İsmail Tarım - Computer Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>İsmail Tarım - Computer Engineer</h1>
+        <p>
+            <strong>Email:</strong> <a href="mailto:ismailtarim7@gmail.com">ismailtarim7@gmail.com</a><br>
+            <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ismailtarim">linkedin.com/in/ismailtarim</a><br>
+            <strong>Phone:</strong> +90 xxx xxx 8562
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Innovative Computer Engineer specializing in AI-driven backend development, algorithm optimization, and database management. Currently pursuing a Bachelor's in Computer Engineering with a focus on AI integration. Known for technical leadership and a strong foundation in autonomous systems and robotics.</p>
+            <ul>
+                <li>Deeply passionate about becoming a full-stack developer, with a strong focus on the architecture and design of web applications.</li>
+                <li>Actively learning both front-end and back-end technologies to gain a comprehensive understanding of the entire development process.</li>
+                <li>I enjoy solving algorithmic problems on LeetCode, continually enhancing my expertise in data structures and writing efficient code.</li>
+                <li>Committed to building efficient, scalable applications by expanding my knowledge of various technology stacks and software architecture.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Core Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, JavaScript, C++, Java</li>
+                <li><strong>Frameworks:</strong> Django, Selenium, OpenCV, Next.js, Express.js, Firebase, BeautifulSoup, ROS</li>
+                <li><strong>Tools:</strong> Git, MATLAB</li>
+                <li><strong>Databases:</strong> MySQL, PostgreSQL</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Code Examples</h2>
+            <pre>
+<code>
+vector&lt;int&gt; topKFrequent(vector&lt;int&gt;&amp; nums, int k) {
+    vector&lt;int&gt; res;
+
+    if(nums.empty()){
+        return res;
+    }
+
+    priority_queue&lt;pair&lt;int,int&gt;, vector&lt;pair&lt;int,int&gt;&gt;, greater&lt;pair&lt;int,int&gt;&gt;&gt; pq;
+    unordered_map&lt;int,int&gt; m;
+    for(auto num : nums){
+        m[num]++;
+    }
+
+    for(auto &amp;item : m){
+        pq.push({item.second, item.first});
+        if (pq.size() &gt; k) {
+            pq.pop();
+        }
+    }        
+
+    while(!pq.empty()) {
+        res.push_back(pq.top().second);
+        pq.pop();
+    }
+
+    reverse(res.begin(), res.end());
+    return res;
+}
+</code>
+            </pre>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <article>
+                <h3>GDG On Campus IKCU – Core Team Member</h3>
+                <p>October 2024 - Present</p>
+            </article>
+            <article>
+                <h3>ECO-ROVER – Robotics Developer, Programming Team Member</h3>
+                <p>October 2024 - Present</p>
+            </article>
+            <article>
+                <h3>Beast Wear – Co-Founder, CTO</h3>
+                <p>March 2024 - Present</p>
+                <ul>
+                    <li>Developed a scalable e-commerce platform using <strong>Next.js</strong> and <strong>Firebase</strong>.</li>
+                    <li>Integrated <strong>shopier</strong> and shipping APIs to streamline payment and logistics.</li>
+                </ul>
+            </article>
+            <!-- Additional experiences can be added similarly -->
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>İzmir Katip Çelebi University</strong> – B.Sc. in Computer Engineering, Expected Graduation: June 2028</li>
+                <li><strong>Cihat Kora Anatolian High School</strong> – Graduated: June 2024</li>
+                <li><strong>Yusuf Kemalettin Perin Science High School</strong> – Attended until June 2022</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li><strong>Turkish:</strong> Native language</li>
+                <li><strong>English:</strong> C1 level (MEB Certified, Izmir Katip Celebi University Proficiency Test: 94%)</li>
+                <li><strong>German:</strong> A1 level</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
